@@ -1,0 +1,50 @@
+[
+    {
+      "title": "C++",
+      "imgSrc": "skills/cppIcon.png"
+    },
+    {
+      "title": "Java",
+      "imgSrc": "skills/javaIcon.png"
+    },
+    {
+      "title": "Python",
+      "imgSrc": "skills/pythonIcon.png"
+    },
+    {
+      "title": "HTML",
+      "imgSrc": "skills/htmlIcon.png"
+    },
+    {
+      "title": "CSS",
+      "imgSrc": "skills/cssIcon.png"
+    },
+    {
+      "title": "C#",
+      "imgSrc": "skills/csharpIcon.png"
+    },
+    {
+      "title": "MySQL",
+      "imgSrc": "skills/mysqlIcon.png"
+    },
+    {
+      "title": "Oracle",
+      "imgSrc": "skills/oracleIcon.png"
+    },
+    {
+      "title": "BitBucket",
+      "imgSrc": "skills/bitbucketIcon.png"
+    }, 
+    {
+      "title": "Godot",
+      "imgSrc": "skills/godotIcon.png"
+    },
+    {
+      "title": "Verilog",
+      "imgSrc": "skills/verilogIcon.png"
+    },
+    {
+      "title": "Arduino",
+      "imgSrc": "skills/arduinoIcon.png"
+    }
+  ]

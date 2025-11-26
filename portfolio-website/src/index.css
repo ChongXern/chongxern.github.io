@@ -1,0 +1,18 @@
+* { /* asterisk targetsw all webpages */
+  box-sizing: border-box; /* border is considered in calcs */
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 68);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.historyItemExperience {
+  background-color: transparent;
+}

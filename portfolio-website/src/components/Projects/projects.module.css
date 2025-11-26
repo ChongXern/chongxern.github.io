@@ -1,0 +1,133 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(12,12,12,0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin: 0 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-text);
+    background: transparent;
+    padding-bottom: 30px;
+}
+
+.projectItems {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.content {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.masonryGrid {
+    display: flex;
+    width: auto;
+    margin-left: -30px; /* gutter size offset */
+    margin: 0 auto;
+}
+
+.masonryGridColumn{
+    background-clip: padding-box;
+}
+
+.projectsList{
+    margin: 10px
+}
+
+.projectBox {
+    background: linear-gradient(
+        0deg, 
+        var(--color-dark) 80%,
+        rgb(17, 56, 112) 120%
+    );
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: fit-content; 
+    box-sizing: border-box;
+}
+
+.projectBox h1 {
+    color: var(--color-primary);
+    padding-bottom: 10px;
+}
+
+.projectBox img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.projectBox p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: white;
+}
+
+.projectSkills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.projectSkill {
+    background-color: var(--color-secondary);
+    color: white;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.githubButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    padding: 5px 10px;
+    box-shadow: 0 0 4px rgba(0,0,0, 0.25);
+}
+
+.projectSkill:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        padding: 10%;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
